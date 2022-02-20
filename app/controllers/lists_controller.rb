@@ -41,3 +41,5 @@ class ListsController < ApplicationController
     params.require(:list).permit(:title, :body, :image)
   end
 end
+
+ok
